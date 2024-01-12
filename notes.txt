@@ -1,0 +1,6 @@
+npx create-react-app [name of project]
+npm start  - to start project
+
+
+
+babeljs.io/repl - tool to convert jsx tp equivalent javascript
