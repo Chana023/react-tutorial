@@ -1,6 +1,24 @@
 npx create-react-app [name of project]
 npm start  - to start project
 
-
-
 babeljs.io/repl - tool to convert jsx tp equivalent javascript
+
+***********************************************************************
+JSX Notes
+***********************************************************************
+
+- Prop is short for propeties
+1. All prop names in JSX follow camelCase
+2. Attributes meant to be numbers should be provided as numbers with curly braces
+
+HTML				JSX
+<input maxlength="5" /> 	<input maxLength={5}/>
+
+3. In JSX boolean 'true' can be written with just the propety name. 'False' should be written in curly braces
+
+HTML				JSX
+<input spellcheck="true" /> 	<input spellCheck />
+<input spellcheck="false" /> 	<input spellCheck={false} />
+
+4. The 'class' attributes is written as 'className' (Avoids confusion with JS code)
+5. Inline styles are provided as objects
