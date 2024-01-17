@@ -22,3 +22,16 @@ HTML				JSX
 
 4. The 'class' attributes is written as 'className' (Avoids confusion with JS code)
 5. Inline styles are provided as objects
+
+
+########################################################################
+Handling text inputs
+########################################################################
+
+Use this whenever you deal with form inputs, it will ensure that the state is managed through react rather than the browser.
+
+1. Create a new piece of state
+2. Create and event hander to watch for 'onChange' event
+3. When the 'onChange' event fires, het the value from the input
+4. Take that value from the input and use it to update your state. ('event' argument can be queried , it is default for all events) 
+5. Pass your state to the input as the value prop.
