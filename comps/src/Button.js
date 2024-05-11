@@ -1,4 +1,4 @@
-import { propTypes } from "prop-types";
+import { PropTypes } from "prop-types";
 
 function Button({
     children, 
@@ -12,9 +12,7 @@ function Button({
     
 
  }) {
-
-
-    return <button>{children}</button>;
+    return <button className="bg-red-500">{children}</button>;
 }
 
 Button.propTypes = {
