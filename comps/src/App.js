@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, } from 'react';
 import Dropdown from './components/Dropdown';
 
 function App() {
@@ -14,7 +14,11 @@ function App() {
         { label: 'Blue', value: 'blue'},
     ];
 
-    return <Dropdown options={options} selection={selection} onSelect={handleSelect}/>;
+    return (
+    <div className='flex'>
+        <Dropdown options={options} value={selection} onChange={handleSelect}/>
+    </div>
+    );
 }
 
 export default App;
