@@ -1,48 +1,15 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
-    },
-    {
-      "name": "Elsie Price",
-      "id": 3
-    },
-    {
-      "name": "Harold Strosin",
-      "id": 4
+      "id": "5dc1",
+      "name": "Arlene Crona"
     }
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
-      "id": "463b",
-      "userId": 1,
-      "title": "Bespoke Frozen Salad"
-    },
-    {
-      "id": "e10e",
-      "userId": 3,
-      "title": "Unbranded Wooden Soap"
-    },
-    {
-      "id": "e898",
-      "userId": 3,
-      "title": "Electronic Cotton Ball"
-    },
-    {
-      "id": "6e2f",
-      "userId": 3,
-      "title": "Intelligent Fresh Shoes"
-    },
-    {
-      "id": "5769",
-      "userId": 1,
-      "title": "Gorgeous Rubber Pizza"
+      "id": "1cd3",
+      "userId": "5dc1",
+      "title": "Generic Cotton Sausages"
     }
   ],
   "photos": []
